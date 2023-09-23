@@ -1,0 +1,39 @@
+.center-wrapper {
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+table, td, th {
+    border: none;
+}
+
+thead {
+    background-color: rgba(113, 99, 186, 255);
+    color: #162938;
+}
+thead th {
+    color: #fff;
+}
+tbody:nth-child(even) tr:nth-child(odd) {
+    background-color: #d2d2d2;
+}
+
+a {
+    text-decoration: none;
+    color: #162938;
+    font-size: 20px;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.update:hover {
+    color: green;
+}
+
+thead tr {
+    border-radius: 15px 30px 0 0;
+}
+
